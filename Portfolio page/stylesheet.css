@@ -1,0 +1,205 @@
+.navbar {
+    width:100%;
+    height:80px;
+    background-color: rgb(0, 0, 0); 
+    color: black;
+    font-family: Arial;
+    text-align: flex;
+    display: inline;
+    align-items: center;
+
+}
+
+.navbarItems {
+    margin-right:40px;
+    display:inline;
+    list-style: none;
+    float: right;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin-top: 35px;
+    background-color: black;
+    color: white;
+}
+
+.logo{
+    align-items: left;
+    display: block;
+    height: auto;
+    width: auto;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+
+
+.profilepic{
+    height: 50px;
+    width: 20px;
+    margin-left: 20px;
+}
+
+.sideBar {
+    height: 500px; /* Full-height: remove this if you want "auto" height */
+    width: 160; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 85px; /* Stay at the top */
+    left: 0;
+    background-color: black; /* Black */
+    padding-top: 20px;
+    color: white;
+    align-items: center;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+
+ } 
+
+ p{ 
+    font-size: 9px;
+    text-align: center;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin: auto;
+ }
+
+ .sideBar img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  } 
+  
+  
+.fa-instagram {
+    background: #000000;
+    color: white;
+    text-align: center;
+  }
+
+.fa-instagram:hover {
+  text-decoration: underline 2px rgb(88, 172, 88);
+  text-underline-offset: 4px;
+}
+  
+.fa {
+    font-size: 6px;
+    text-align: center;
+    text-decoration: none;
+    margin: 11px 20px;
+    border-radius: 50%;
+    align-items: center;
+
+  }
+
+.fa-twitter {
+    background: #000000;
+    color: white;
+    margin-left: -1
+  }
+
+  .fa-twitter:hover {
+    text-decoration: underline 2px rgb(88, 172, 88);
+    text-underline-offset: 4px;
+   
+  }
+
+.fa-google {
+    background: #000000;
+    color: white;
+    margin-left: -2
+  }
+.fa-google:hover {
+  text-decoration: underline 2px rgb(88, 172, 88);
+  text-underline-offset: 4px;
+}
+  
+
+
+body{ 
+  background-color: black;
+
+}
+
+.container1 {
+  height: 400px;
+  width: 200px;
+  float: right;
+  background-color: white;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+
+}
+
+
+#navitem:hover{
+  border-bottom: 3px solid rgb(88, 172, 88);
+  cursor: pointer;
+
+}
+
+button {
+  display: inline;
+  margin: 10px 40px;
+  background-color: transparent;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+
+  
+}
+
+button:hover{
+background-color: transparent;
+border-top: 1px solid rgb(88, 172, 88);
+border-bottom: 1px solid rgb(88, 172, 88);
+border-left: 1px solid rgb(88, 172, 88);
+border-right: 1px solid rgb(88, 172, 88);
+overflow: hidden;
+transition: 500ms ease-out;
+padding: 10px;
+cursor: pointer;
+}
+
+h2 .caption{
+  color: white
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.footerItems {
+
+  display:inline;
+  list-style: none;
+  float: left;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color: white;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,700;1,100&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
